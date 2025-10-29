@@ -30,7 +30,9 @@
 ```
 ## Running Application
 
-- Recreate .env for backend and .env.local for frontend from the env samples
+### Recreate .env for backend and .env.local for frontend from the env samples
+---
+
 ```bash 
     docker-compose up --build -d
 ```
