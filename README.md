@@ -3,6 +3,7 @@
 ## Backend
 ### Tools
     - Postgresql for the database
+    - The set local machine port number is 5430 in the docker-compose
     - Globalised number pacakage to make sure 0555, and +233 are not interpreted as different numbers
     - dotenv for storing and getting enviroment variables
     - docker and docker compose for containerizing application
