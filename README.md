@@ -42,7 +42,9 @@
     - install packages
     - pip install -r requirements.txt
     - Run application
-    - python manage.py runserver
+    - python manage.py runserver 
+    
+### docker version, simulating a production ready environment of the backend runs with gunicorn 
 
 ## Run frontend
     - install packages
