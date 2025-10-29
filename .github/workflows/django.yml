@@ -30,7 +30,13 @@ jobs:
       - name: Make .env
         working-directory: ./backend
         run: |
-          cp .env.sample .env
+          echo "DEBUG=True" > .env
+          echo "SECRET_KEY=ci-secret" >> .env
+          echo "POSTGRES_DB=merchantdb" >> .env
+          echo "POSTGRES_USER=merchantuser" >> .env
+          echo "POSTGRES_PASSWORD=merchantpass" >> .env
+          echo "POSTGRES_HOST=localhost" >> .env
+          echo "POSTGRES_PORT=5432" >> .env
 
       - name: Install Dependencies
         working-directory: ./backend
