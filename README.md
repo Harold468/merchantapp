@@ -30,6 +30,7 @@
 ```
 ## Running Application
 
+- Recreate .env for backend and .env.local for frontend from the env samples
 ```bash 
     docker-compose up --build -d
 ```
@@ -47,5 +48,50 @@
     - Run application
     - npm run dev / npm start
     
+
+
+
+!["assets/1.png"](./assets/1.png)
+
+
+
+
+
+
+
+
+
+
+
+!["assets/2.png"](./assets/2.png)
+
+
+
+
+
+
+
+
+
+
+
+
+!["assets/3.png"](./assets/3.png)
+
+
+
+
+
+
+
+
+
+
+!["assets/4.png"](./assets/4.png)
+
+
+
+
+
 
 
